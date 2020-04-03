@@ -1,9 +1,9 @@
 body
 {
-    color:#333;
+    color:darkcyan;
     text-align: center;
-    font-family: "Arial";
-    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,38 @@ body
 {
     width: 70%;
     padding: 1cm;
-    text-align: left;
-    border: 1px solid #DDD;
+    border-bottom: 3px solid #fafa;
+    border-right: 10px solid #fff233;
+    border-left: 10px solid #33beff;
+    border-top: 3px solid #fafa;
+    text-align: center;
     margin: 0 auto;
 }
 #container h1
 {
     font-size: 20px;
+}
+#cabecera
+{
+    background: #fafa;
+    box-shadow: 0px 5px 30px 1px rgba(0,0,0,0.76);
+    color: darkmagenta;
+    text-align: left;
+    margin-left: 0;
+    padding: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+#post
+{
+    padding: 1em;
+}
+#cabecera #tagline
+{
+    font-weight: normal;
+    color: deeppink;
+    margin-left: 12px;
+    font-size: 0.8em;
+    padding: 0 0 0 1em;
 }
